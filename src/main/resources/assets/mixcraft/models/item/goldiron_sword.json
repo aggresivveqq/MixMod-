@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mixcraft:item/goldiron_sword"
+  }
+}
