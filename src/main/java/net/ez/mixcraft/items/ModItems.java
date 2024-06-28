@@ -19,11 +19,11 @@ public class ModItems {
 
     public static final Item GOLD_IRON =registerItem("goldiron",new Item(new FabricItemSettings()));
     public static final Item DIAMOND_IRON_SWORD =registerItem("diamondiron_sword",
-            new SwordItem(ModToolMaterials.DIAMOND_IRON,4,-2.3f,new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.DIAMOND_IRON,6,-2f,new FabricItemSettings()));
     public static final Item GOLD_IRON_SWORD =registerItem("goldiron_sword",
-            new SwordItem(ModToolMaterials.GOLD_IRON,3,-2.3f,new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.GOLD_IRON,4,-2f,new FabricItemSettings()));
     public static final Item DIAMOND_GOLD_SWORD =registerItem("diamondgold_sword",
-            new SwordItem(ModToolMaterials.DIAMOND_GOLD,3,-2.3f,new FabricItemSettings()));
+            new SwordItem(ModToolMaterials.DIAMOND_GOLD,5,-2f,new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
       entries.add(DIAMOND_IRON);
       entries.add(GOLD_IRON);
